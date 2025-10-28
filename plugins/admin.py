@@ -161,6 +161,8 @@ async def get_admins(client: Client, message: Message):
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")]])
     await pro.edit(f"<b>⚡ Current Admin List:</b>\n\n{admin_list}", reply_markup=reply_markup)
 
+
+"""
 #=====================================================================================##
 # Credits:- @VoidXTora
 # Maintained by: Mythic_Bots
